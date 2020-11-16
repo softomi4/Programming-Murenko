@@ -22,6 +22,12 @@ char *get_animal_type_name(enum animal_type type)
 	case COW:
 		result = "Корова";
 		break;
+	case HUMAN:
+		result = "Человек";
+		break;
+	case SHARK:
+		result = "акула";
+		break;
 	case PIG:
 		result = "Свиня";
 		break;
