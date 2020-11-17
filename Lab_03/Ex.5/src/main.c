@@ -3,7 +3,7 @@ int main()
 {
 	int num1 = NUM / 100; 		//получаем первую цифру
 	int num3 = NUM % 10;	//получаем третью цифру 
-	float temp = 0;
+	int temp = 0;
 	
 	float result = num1 / num3;	// находим во сколько раз больше
 	
