@@ -6,7 +6,7 @@ int main()
 	{
 		y = -1 / X;
 	}
-	else if(X +> -1 && X <= 1)
+	else if(X => -1 && X <= 1)
 	{
 		Y = X * X;
 	}
