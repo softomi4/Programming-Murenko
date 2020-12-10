@@ -14,7 +14,6 @@ compile:
 	$(CC) $(C_OPTS) Ex.3/src/main.c -o dist/3.bin
 	$(CC) $(C_OPTS) Ex.4/src/main.c -o dist/4.bin
 	$(CC) $(C_OPTS) Ex.5/src/main.c -o dist/5.bin
-	$(CC) $(C_OPTS) Ex.6/src/main.c -o dist/6.bin
 
 doxygen:
 	doxygen Doxyfile
