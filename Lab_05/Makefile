@@ -9,12 +9,12 @@ clean:
 prep:
 	mkdir dist
 compile: 
-	$(CC) $(C_OPTS) Ex.1/src/main.c -o dist/1.bin
-	$(CC) $(C_OPTS) Ex.2/src/main.c -o dist/2.bin
-	$(CC) $(C_OPTS) Ex.3/src/main.c -o dist/3.bin
-	$(CC) $(C_OPTS) Ex.4/src/main.c -o dist/4.bin
-	$(CC) $(C_OPTS) Ex.5/src/main.c -o dist/5.bin
-	$(CC) $(C_OPTS) Ex.6/src/main.c -o dist/6.bin
+	$(CC) $(C_OPTS) Task_1/src/main.c -o dist/1.bin
+	$(CC) $(C_OPTS) Task_2/src/main.c -o dist/2.bin
+	$(CC) $(C_OPTS) Task_3/src/main.c -o dist/3.bin
+	$(CC) $(C_OPTS) Task_4/src/main.c -o dist/4.bin
+	$(CC) $(C_OPTS) Task_5/src/main.c -o dist/5.bin
+	$(CC) $(C_OPTS) Task_6/src/main.c -o dist/6.bin
 
 doxygen:
 	doxygen Doxyfile
