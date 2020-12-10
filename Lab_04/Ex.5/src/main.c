@@ -12,7 +12,7 @@ int main()
 	{
 		y = X + 1;
 	}
-	else if (X > 0 < 1)
+	else if (X > 0 && 0 < 1)
 	{
 		y = -1 * X + 1;
 	}
